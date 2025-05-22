@@ -45,10 +45,10 @@ pip install -r requirements.txt
 
 ```bash
 # Tek bir workflow dosyasını analiz et
-python -m pipe_sentinel.analyzer path/to/workflow.yml
+python -m pipe_sentinel .\examples\build.yml
 
 # Tüm workflow dosyalarını analiz et
-python -m pipe_sentinel.analyzer path/to/workflows/
+python -m pipe_sentinel .\test_workflows\
 ```
 
 ## Güvenlik
